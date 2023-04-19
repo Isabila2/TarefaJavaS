@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>IsabellaJava</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+    <script>
+        //Cubo//
+      function one(){
+    var numero=prompt("Digite o número...");
+    var cubo= numero*numero*numero;
+    
+    window.alert("O cubo do número é " + cubo);
+   
+      }
+    </script>
+
+    <script>
+      //Conversão//
+      function two(){
+        var numero=prompt("Digite a temperatura em F");
+        var convert1= numero - 32;
+        var convert2= convert1 * 5/9;
+
+        window.alert("A temperatura em C é " + convert2);  
+      }
+    </script>
+
+<script>
+    //Area Triângulo//
+    function three(){
+      var numero1=prompt("Digite a base do triângulo");
+      var numero2=prompt("Digite a altura do triângulo");
+      var multarea= numero1*numero2;
+      var divarea= multarea /2;
+      
+
+      window.alert("A área do triângulo é " + divarea);  
+    }
+  </script>
+
+<script>
+    //Perimetro e Área Círculo//
+    function four(){
+      var numero=prompt("Digite o valor do raio");
+      var pi=3.14;
+      var area= numero*numero* pi;
+      var perimetro= 2*numero*pi;
+      window.alert("A área do circulo é " + area + " e o perimetro é " + perimetro );  
+
+    }
+  </script>
+
+<script>
+    //Desconto//
+    function five(){
+      var numero=prompt("Digite um valor");
+      var porcentagem= numero * 5/100;
+      var desconto= numero - porcentagem;
+
+      
+
+      window.alert("O desconto é de " + porcentagem + " reais, e o valor total fica R$" + desconto);  
+    }
+  </script>
+
+<script>
+    //Idade//
+    function six(){
+      var numero=prompt("Digite o seu ano de nascimento");
+      var nascimento= 2023-numero;
+      if (nascimento < 18){
+        menor = window.alert("Você é menor de idade!");
+      } else {
+        maior = window.alert("Você é maior de idade!");
+      }
+    
+    }
+  </script>
+
+<script>
+    //Combustível//
+    function seven(){
+      var numero=prompt("Quanto de dinheiro você possui?");
+      var combustivel= numero/5;
+      var quilometro= combustivel*20
+
+      window.alert("Você pode comprar " + combustivel + " litros de combustível e andar " + quilometro + " Km")
+      
+    }
+  </script>
+    
+<body>
+
+    <header>
+
+        <h1>Botões - Isabella Texeira</h1>
+        
+        </header>
+        
+    <div class="botoes"> 
+    <button id="botone" onclick="one()">Cubo</button>
+
+    <button id="bottwo" onclick="two()">Conversão</button>
+
+    <button id="botthree" onclick="three()">ÁreaTriângulo</button>
+    
+    <button id="botfour" onclick="four()">Círculo</button>
+
+    <button id="botfive" onclick="five()">Desconto</button>
+
+    <button id="botsix" onclick="six()">Idade</button>
+
+    <button id="botseven" onclick="seven()">Combustível</button>
+   
+    </div>
+
+</body>
+
+
+</html>
+
+
+
