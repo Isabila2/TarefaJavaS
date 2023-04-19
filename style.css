@@ -1,0 +1,61 @@
+
+    .botone{
+        padding: 20px;
+    }
+
+    body {
+        border: 2px;
+    }
+    button {
+        border-radius: 10px;
+        font-size: 32px;
+        width: 15%;
+        margin: 10px;
+    
+
+    }
+
+    header{
+        background-color: #ffebf1;
+        color: #bd7e8c;
+        padding: 35px;
+        text-align: center;
+        border-bottom: 5px solid #ffbcca;
+        font-size: 30px;
+    }
+    .botoes{
+        display:flex
+    }
+
+    #botone{
+        background-color: #ffeff2;
+    }
+
+    #bottwo{
+        background-color: #ffdee5;
+    }
+   
+    #botthree{
+        background-color: #ffced8 ;
+        width: 13%;
+    }
+
+    #botfour{
+        background-color: #ffced8 ;
+    }
+
+    #botfive{
+        background-color: #f096b6 ;
+
+    }
+
+    #botsix{
+        background-color: #ca8497
+    
+         ;
+
+    }
+   
+    #botseven{
+        background-color: #955a68 ;
+    }
